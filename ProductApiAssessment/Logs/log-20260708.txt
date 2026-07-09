@@ -1,0 +1,196 @@
+2026-07-08 16:39:04.447 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 16:39:04.964 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 16:39:04.969 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 16:39:05.204 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 16:39:05.221 +05:30 [INF] Hosting environment: Development
+2026-07-08 16:39:05.224 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 16:39:44.870 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 16:39:45.495 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 627.4373ms
+2026-07-08 16:39:45.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 16:39:45.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 16:39:45.670 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 24.8186ms
+2026-07-08 16:39:45.727 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.3544ms
+2026-07-08 16:39:45.902 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 16:39:45.975 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 73.5423ms
+2026-07-08 16:40:11.450 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7179/api/Auth/login?username=admin&password=admin123 - null 0
+2026-07-08 16:40:16.336 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 16:40:16.418 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ProductApiAssessment.Controllers.AuthController (ProductApiAssessment).
+2026-07-08 16:40:16.684 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-08 16:40:16.770 +05:30 [INF] Executed action ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment) in 334.9983ms
+2026-07-08 16:40:16.775 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 16:40:16.780 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7179/api/Auth/login?username=admin&password=admin123 - 200 null application/json; charset=utf-8 5330.5191ms
+2026-07-08 16:40:57.060 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/api/Products - null null
+2026-07-08 16:40:57.321 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 16:40:57.354 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductApiAssessment.Controllers.ProductsController (ProductApiAssessment).
+2026-07-08 16:41:05.320 +05:30 [INF] Executed DbCommand (121ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-08 16:41:05.416 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Domain.Entities.Product, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-08 16:41:05.461 +05:30 [INF] Executed action ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment) in 8094.1913ms
+2026-07-08 16:41:05.467 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 16:41:05.494 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/api/Products - 200 null application/json; charset=utf-8 8434.164ms
+2026-07-08 16:52:56.945 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 16:52:57.369 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 16:52:57.374 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 16:52:57.728 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 16:52:57.731 +05:30 [INF] Hosting environment: Development
+2026-07-08 16:52:57.734 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 16:52:58.041 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 16:52:58.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 394.7686ms
+2026-07-08 16:52:58.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 16:52:58.486 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 16:52:58.517 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 30.5903ms
+2026-07-08 16:52:58.573 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.2982ms
+2026-07-08 16:52:58.758 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 16:52:58.790 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.6571ms
+2026-07-08 16:53:43.601 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 16:53:43.941 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 16:53:43.947 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 16:53:44.193 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 16:53:44.197 +05:30 [INF] Hosting environment: Development
+2026-07-08 16:53:44.200 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 16:53:44.320 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 16:53:44.682 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 363.7277ms
+2026-07-08 16:53:44.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 16:53:44.726 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 16:53:44.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 32.3952ms
+2026-07-08 16:53:44.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 103.743ms
+2026-07-08 16:53:44.938 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 16:53:44.965 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.1992ms
+2026-07-08 16:54:51.773 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - null 0
+2026-07-08 16:54:55.942 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 16:54:55.998 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ProductApiAssessment.Controllers.AuthController (ProductApiAssessment).
+2026-07-08 16:54:56.254 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-08 16:54:56.289 +05:30 [INF] Executed action ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment) in 276.4592ms
+2026-07-08 16:54:56.297 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 16:54:56.301 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - 200 null application/json; charset=utf-8 4527.9903ms
+2026-07-08 16:55:24.183 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/api/v1.0/Products - null null
+2026-07-08 16:55:24.350 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 16:55:24.378 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductApiAssessment.Controllers.ProductsController (ProductApiAssessment).
+2026-07-08 16:55:31.415 +05:30 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-08 16:55:31.524 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Domain.Entities.Product, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-08 16:55:31.571 +05:30 [INF] Executed action ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment) in 7185.3699ms
+2026-07-08 16:55:31.578 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 16:55:31.611 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/api/v1.0/Products - 200 null application/json; charset=utf-8 7427.6331ms
+2026-07-08 17:00:26.879 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 17:00:27.297 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 17:00:27.302 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 17:00:27.513 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 17:00:27.516 +05:30 [INF] Hosting environment: Development
+2026-07-08 17:00:27.518 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 17:00:45.355 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 17:00:45.851 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 495.9549ms
+2026-07-08 17:00:45.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 17:00:45.858 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 17:00:45.925 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 67.0596ms
+2026-07-08 17:00:45.990 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.9643ms
+2026-07-08 17:00:46.122 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 17:00:46.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 32.4941ms
+2026-07-08 17:02:43.867 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - null 0
+2026-07-08 17:02:43.944 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 17:02:43.999 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ProductApiAssessment.Controllers.AuthController (ProductApiAssessment).
+2026-07-08 17:02:44.150 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-08 17:02:44.184 +05:30 [INF] Executed action ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment) in 169.5116ms
+2026-07-08 17:02:44.191 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 17:02:44.198 +05:30 [INF] HTTP POST /api/v1.0/Auth/login responded 200 in 304.3524 ms
+2026-07-08 17:02:44.208 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - 200 null application/json; charset=utf-8 340.9212ms
+2026-07-08 17:03:30.579 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/api/v1.0/Products - null null
+2026-07-08 17:03:30.694 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 17:03:30.711 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductApiAssessment.Controllers.ProductsController (ProductApiAssessment).
+2026-07-08 17:03:33.983 +05:30 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-08 17:03:34.069 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Domain.Entities.Product, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-08 17:03:34.110 +05:30 [INF] Executed action ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment) in 3393.244ms
+2026-07-08 17:03:34.117 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 17:03:34.124 +05:30 [INF] HTTP GET /api/v1.0/Products responded 200 in 3534.8498 ms
+2026-07-08 17:03:34.146 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/api/v1.0/Products - 200 null application/json; charset=utf-8 3566.1325ms
+2026-07-08 17:26:31.267 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 17:26:32.073 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 17:26:32.082 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 17:26:32.662 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 17:26:32.670 +05:30 [INF] Hosting environment: Development
+2026-07-08 17:26:32.676 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 17:26:34.490 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 17:26:35.214 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 729.637ms
+2026-07-08 17:26:35.280 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 17:26:35.280 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 17:26:35.305 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 24.1809ms
+2026-07-08 17:26:35.389 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 108.5315ms
+2026-07-08 17:26:35.711 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 17:26:35.751 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.9123ms
+2026-07-08 17:36:34.858 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 17:36:35.483 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 17:36:35.489 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 17:36:36.202 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 17:36:36.206 +05:30 [INF] Hosting environment: Development
+2026-07-08 17:36:36.210 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 17:36:49.949 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 17:36:50.371 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 17:36:50.377 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 17:36:50.636 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 17:36:50.640 +05:30 [INF] Hosting environment: Development
+2026-07-08 17:36:50.643 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 17:47:53.840 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 17:47:54.446 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 17:47:54.451 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 17:47:54.954 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 17:47:54.958 +05:30 [INF] Hosting environment: Development
+2026-07-08 17:47:54.961 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 19:51:06.470 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 19:51:07.222 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 19:51:07.227 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 19:51:07.700 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 19:51:07.704 +05:30 [INF] Hosting environment: Development
+2026-07-08 19:51:07.707 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 19:51:10.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 19:51:10.612 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 601.2486ms
+2026-07-08 19:51:10.757 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 19:51:10.757 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 19:51:10.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 69.6369ms
+2026-07-08 19:51:11.074 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 316.7083ms
+2026-07-08 19:51:11.592 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 19:51:11.644 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 51.4138ms
+2026-07-08 19:53:03.091 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - null 0
+2026-07-08 19:53:03.272 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 19:53:03.346 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ProductApiAssessment.Controllers.AuthController (ProductApiAssessment).
+2026-07-08 19:53:03.543 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-08 19:53:03.582 +05:30 [INF] Executed action ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment) in 220.5188ms
+2026-07-08 19:53:03.588 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 19:53:03.596 +05:30 [INF] HTTP POST /api/v1.0/Auth/login responded 200 in 454.5148 ms
+2026-07-08 19:53:03.607 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - 200 null application/json; charset=utf-8 515.5828ms
+2026-07-08 20:02:35.633 +05:30 [INF] User profile is available. Using 'C:\Users\Gopal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-07-08 20:02:36.324 +05:30 [INF] Now listening on: https://localhost:7179
+2026-07-08 20:02:36.331 +05:30 [INF] Now listening on: http://localhost:5070
+2026-07-08 20:02:36.593 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-08 20:02:36.598 +05:30 [INF] Hosting environment: Development
+2026-07-08 20:02:36.601 +05:30 [INF] Content root path: D:\AssignmentTaskProductAPI\ProductApiAssessment\ProductApiAssessment
+2026-07-08 20:02:38.281 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/index.html - null null
+2026-07-08 20:02:38.758 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/index.html - 200 null text/html;charset=utf-8 480.5053ms
+2026-07-08 20:02:38.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-08 20:02:38.840 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/_vs/browserLink - null null
+2026-07-08 20:02:38.864 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_framework/aspnetcore-browser-refresh.js - 200 16525 application/javascript; charset=utf-8 23.6863ms
+2026-07-08 20:02:38.940 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/_vs/browserLink - 200 null text/javascript; charset=UTF-8 98.9919ms
+2026-07-08 20:02:39.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - null null
+2026-07-08 20:02:39.107 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.3486ms
+2026-07-08 20:02:56.305 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - null 0
+2026-07-08 20:02:56.440 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 20:02:56.547 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String, System.String) on controller ProductApiAssessment.Controllers.AuthController (ProductApiAssessment).
+2026-07-08 20:02:56.793 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-07-08 20:02:56.856 +05:30 [INF] Executed action ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment) in 283.9732ms
+2026-07-08 20:02:56.865 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.AuthController.Login (ProductApiAssessment)'
+2026-07-08 20:02:56.879 +05:30 [INF] HTTP POST /api/v1.0/Auth/login responded 200 in 532.1738 ms
+2026-07-08 20:02:56.905 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7179/api/v1.0/Auth/login?username=admin&password=admin123 - 200 null application/json; charset=utf-8 599.7322ms
+2026-07-08 20:03:26.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7179/api/v1.0/Products - null null
+2026-07-08 20:03:26.250 +05:30 [INF] Executing endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 20:03:26.269 +05:30 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductApiAssessment.Controllers.ProductsController (ProductApiAssessment).
+2026-07-08 20:03:30.249 +05:30 [INF] Executed DbCommand (208ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[CreatedBy], [p].[CreatedOn], [p].[ModifiedBy], [p].[ModifiedOn], [p].[ProductName]
+FROM [Products] AS [p]
+2026-07-08 20:03:30.393 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[Domain.Entities.Product, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[Application.DTOs.ProductDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-07-08 20:03:30.517 +05:30 [INF] Executed action ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment) in 4240.449ms
+2026-07-08 20:03:30.529 +05:30 [INF] Executed endpoint 'ProductApiAssessment.Controllers.ProductsController.GetAll (ProductApiAssessment)'
+2026-07-08 20:03:30.540 +05:30 [INF] HTTP GET /api/v1.0/Products responded 200 in 4449.5440 ms
+2026-07-08 20:03:30.579 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7179/api/v1.0/Products - 200 null application/json; charset=utf-8 4541.005ms
